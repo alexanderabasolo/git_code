@@ -1,5 +1,9 @@
 import math
 
+##################################################################################################
+# author: alexabasolo99@gmail.com
+##################################################################################################
+
 def calcular_e(precision):
     # acumuladores e y num_terminos, termino es la x en el ejercicio
     e = 0
