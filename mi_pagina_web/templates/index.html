@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi Página Personal</h1>
+    </header>
+    <section>
+        <h2>Sobre Mí</h2>
+        <p>Texto sobre ti...</p>
+        <h2>GitHub</h2>
+        <p><a href="https://github.com/tu_usuario">Mi GitHub</a></p>
+        <h2>Currículum Vitae</h2>
+        <p><a href="{{ url_for('static', filename='cv/CV.pdf') }}">Descargar CV</a></p>
+        <!-- Añade más secciones aquí -->
+    </section>
+</body>
+</html>
