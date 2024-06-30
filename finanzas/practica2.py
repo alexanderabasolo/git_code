@@ -1,5 +1,10 @@
 import math
 
+##################################################################################################
+# author: alexabasolo99@gmail.com
+# master industrial mathematics
+##################################################################################################
+
 #definir la funcion
 def ecuacion(x):
     return x**3+math.exp(-x)-1.5

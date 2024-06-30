@@ -1,6 +1,11 @@
 # main.py
 import hipoteca
 
+##################################################################################################
+# author: alexabasolo99@gmail.com
+# master industrial mathematics
+##################################################################################################
+
 def main():
     h = float(input("Ingrese el capital de la hipoteca en euros: "))
     i = float(input("Ingrese el interes anual en porcentaje: "))

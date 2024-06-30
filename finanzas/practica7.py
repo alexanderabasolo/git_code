@@ -2,6 +2,11 @@ import math
 from scipy import stats
 import numpy as np
 
+##################################################################################################
+# author: alexabasolo99@gmail.com
+# master industrial mathematics
+##################################################################################################
+
 def montecarlo(S0, K, r, sigma, T, I, N, option, D0):
     dt = T / N
     S = np.zeros((N+1, I))

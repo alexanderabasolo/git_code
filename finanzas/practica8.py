@@ -1,5 +1,10 @@
 import QuantLib as ql
 
+##################################################################################################
+# author: alexabasolo99@gmail.com
+# master industrial mathematics
+##################################################################################################
+
 # Definicion y configuracion de parametros de entrada
 S0 = ql.QuoteHandle(ql.SimpleQuote(127.62))
 K = 130.00

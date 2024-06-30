@@ -1,6 +1,11 @@
 import math
 from scipy import stats
 
+##################################################################################################
+# author: alexabasolo99@gmail.com
+# master industrial mathematics
+##################################################################################################
+
 def bsm_call(S0, K, T, r, sigma):
     d1 = (math.log(S0 / K) + (r + 0.5 * sigma ** 2) * T) / (sigma * math.sqrt(T))
     d2 = d1 - sigma * math.sqrt(T)
